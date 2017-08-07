@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("libperloan")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Liberia de Perloan")]
+[assembly: AssemblyDescription("Libreria de middleware de sistema para prestamos personales Perloan")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Sontech México")]
 [assembly: AssemblyProduct("libperloan")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Sontechs México 2017")]
+[assembly: AssemblyTrademark("Sontechs México - Edwin Elias Alvarez")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
