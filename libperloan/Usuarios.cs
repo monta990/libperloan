@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using libAccesoBD; //usuamos la libreria de acceso a base de datos
+using libAccesoBD;
 using MySql.Data.MySqlClient;
 
 namespace libperloan
@@ -29,6 +29,7 @@ namespace libperloan
             {
                 try
                 {
+                    Lector = MySQL.Lector;
                     if (!Lector.HasRows)
                     {
                         Error = "Usuario y contraseña incorrectos. ";

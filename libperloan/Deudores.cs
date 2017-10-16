@@ -49,20 +49,20 @@ namespace libperloan
         /// </summary>
         /// <param name="id">ID de duedor a actualizar</param>
         /// <param name="nombre">Nombre de Dudor</param>
-        /// <param name="ap1"></param>
-        /// <param name="ap2"></param>
-        /// <param name="ine"></param>
-        /// <param name="calle"></param>
-        /// <param name="nodom"></param>
-        /// <param name="colonia"></param>
-        /// <param name="ciudad"></param>
-        /// <param name="codpostal"></param>
-        /// <param name="estado"></param>
-        /// <param name="tel"></param>
-        /// <param name="AvalNombre"></param>
-        /// <param name="AvalTelefono"></param>
-        /// <param name="email"></param>
-        /// <returns></returns>
+        /// <param name="ap1">Apellido Paterno</param>
+        /// <param name="ap2">Apellido Materno</param>
+        /// <param name="ine">Numero INE</param>
+        /// <param name="calle">Calle</param>
+        /// <param name="nodom">Numero Domicilio</param>
+        /// <param name="colonia">Colonia</param>
+        /// <param name="ciudad">Ciudad</param>
+        /// <param name="codpostal">Codigo Postal</param>
+        /// <param name="estado">Estado</param>
+        /// <param name="tel">Telefono</param>
+        /// <param name="AvalNombre">Nombre Aval</param>
+        /// <param name="AvalTelefono">Telefono Aval</param>
+        /// <param name="email">Email</param>
+        /// <returns>True o False</returns>
         public bool Actualizar(string id, string nombre, string ap1, string ap2, string ine, string calle, string nodom, string colonia, string ciudad, string codpostal, string estado, string tel, string AvalNombre, string AvalTelefono, string email)
         {
             bool res = false;
@@ -98,7 +98,7 @@ namespace libperloan
         /// Elimina a deudor
         /// </summary>
         /// <param name="Id">ID de deudor a eliminar</param>
-        /// <returns></returns>
+        /// <returns>True o False</returns>
         public bool Eliminar(string Id)
         {
             bool res = false;
